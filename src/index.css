@@ -1,13 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-image: url("https://i.pinimg.com/originals/45/ce/78/45ce7811d730b9e0ae4f0052ae716157.jpg");
+	font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#title {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+	font-weight: 100;
+	margin-left: 150px;
+}
+#survey {
+	background-color: rgba(255, 170, 165, 0.6);
+	width: 50%;
+	margin: auto;
+}
+
+#input {
+	padding-top: 30px;
+}
+
+#name-label,
+#email-label,
+#age-label,
+#college-label,
+#dropdown,
+#info {
+	margin-left: 50px;
+	display: block;
+	line-height: 2;
+	font-size: 18px;
+	padding: 10px;
+}
+
+#name-input,
+#email-input,
+#age-input,
+#college-input,
+#dropdown,
+p {
+	border-radius: 5px;
+	width: 80%;
+	height: 50px;
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+#organization {
+	display: flex;
+	flex-direction: column;
+	font-size: 17px;
+	margin-left: 50px;
+}
+
+#instagram,
+#snapchat,
+#snapchat-label,
+#instagram-label,
+#linkedin,
+#linkedin-label,
+#twitter,
+#twitter-label,
+#reddit,
+#reddit-label {
+	font-size: 17px;
+	display: flex;
+	margin-left: 25px;
+	line-height: 1.5;
+}
+
+#info {
+	width: 75%;
+}
+
+#submit {
+	margin: 50px 200px;
+	width: 50%;
+	background-color: #4ea0ae;
+	color: white;
+	height: 50px;
+	border-radius: 5px;
 }
